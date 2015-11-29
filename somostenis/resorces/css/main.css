@@ -1,0 +1,26 @@
+﻿/* estilos del header */
+
+
+#lineaheader{
+	height: 5px;
+	width: 100%;
+	background-color:#291818;
+
+}
+#headerspan{
+	font-family: Sans-serif;
+	font-size: 12px;
+	color: #291818;
+}
+#titulo{
+	font-family: Sans-serif;
+	color: #EF2929;
+	margin-bottom: 0px;
+}
+
+/* estilos gral pags */
+.titulospaginas{
+	font-family: Sans-serif;
+	font-size: 20px;
+	color: #291818;	
+}

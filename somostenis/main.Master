@@ -1,0 +1,26 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="main.master.cs" Inherits="somostenis.main" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>SomosTenis</title>
+    <!--Estilos-->
+    <link href="/resorces/css/main.css" rel="stylesheet" />
+    <!--Fin Estilos-->
+    <asp:ContentPlaceHolder ID="head" runat="server">
+      
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+	<h1 id="titulo">Somos Tenis<span id="headerspan">|Rep. Dominicana</span></h1>
+    <div id="lineaheader"></div>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
